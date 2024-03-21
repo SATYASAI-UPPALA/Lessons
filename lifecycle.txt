@@ -1,0 +1,42 @@
+public static final String MY_TAG="Its Working";
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        Log.i(MY_TAG,"onCreate");
+    }
+
+    @Override
+    protected void onStart() {
+
+        super.onStart();
+        Log.i(MY_TAG,"onCreate");
+
+    }
+    protected void onResume() {
+        super.onResume();
+        Log.i(MY_TAG,"onResume()");
+    }
+
+    protected void onPause() {
+
+        super.onPause();
+        Log.i(MY_TAG,"onPause()");
+    }
+
+    protected void onStop() {
+
+        super.onStop();
+        Log.i(MY_TAG,"onStop()");
+    }
+    protected void onRestart() {
+
+        super.onRestart();
+        Log.i(MY_TAG,"onRestart()");
+    }
+    protected void onDestroy() {
+
+        super.onDestroy();
+        Log.i(MY_TAG,"onDestroy()");
+    }
